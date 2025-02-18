@@ -13,10 +13,11 @@ return {
           "lua_ls",
           "pyright",
           "ts_ls",
-          -- "eslint",
+          "eslint",
           "tailwindcss",
-          -- "emmet_language_server",
-          "jsonls"
+          "emmet_language_server",
+          "jsonls",
+          "solargraph",
         }
       })
       require("mason-lspconfig").setup()
