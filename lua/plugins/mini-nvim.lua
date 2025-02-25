@@ -48,7 +48,11 @@ return {
 		})
 
 		-- Jump2d
-		require("mini.jump2d").setup({})
+		require("mini.jump2d").setup({
+      mappings = {
+        start_jumping = "<leader><leader>",
+      }
+    })
 
 		-- Bracketed
 		require("mini.bracketed").setup({})
