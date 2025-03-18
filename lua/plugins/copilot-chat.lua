@@ -15,7 +15,7 @@ return {
 					},
                     close = {
                         normal = "<C-c>",
-                        insert = "<C-c>",
+                        insert = "",
                     }
 				},
 				show_help = "yes",
