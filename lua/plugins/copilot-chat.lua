@@ -30,7 +30,7 @@ return {
 				window = {
                     number = false,
                     relativenumber = false,
-				    layout = "vertical", -- 'vertical', 'horizontal', 'float', 'replace'
+				    layout = "float", -- 'vertical', 'horizontal', 'float', 'replace'
 					width = 0.3, -- fractional width of parent, or absolute width in columns when > 1
 					height = 0.5, -- fractional height of parent, or absolute height in rows when > 1
 					-- Options below only apply to floating windows
