@@ -16,6 +16,9 @@ return {
                     close = {
                         normal = "<C-c>",
                         insert = "",
+                    },
+                    complete = {
+                        insert = "",
                     }
 				},
 				show_help = "yes",
@@ -25,6 +28,8 @@ return {
 				question_header = "  " .. user .. " ",
 				answer_header = "  Copilot ",
 				window = {
+                    number = false,
+                    relativenumber = false,
 				    layout = "vertical", -- 'vertical', 'horizontal', 'float', 'replace'
 					width = 0.3, -- fractional width of parent, or absolute width in columns when > 1
 					height = 0.5, -- fractional height of parent, or absolute height in rows when > 1
