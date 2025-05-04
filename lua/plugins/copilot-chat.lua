@@ -14,7 +14,7 @@ return {
 						insert = "<C-s>",
 					},
                     close = {
-                        normal = "<C-c>",
+                        normal = "<esc>",
                         insert = "",
                     },
                     complete = {
